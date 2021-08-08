@@ -1,0 +1,46 @@
+@font-face {
+    font-family: imperfect23;
+    src: url(../fonts/ImPerfect23.otf);
+}
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'imperfect23',Arial, Helvetica, sans-serif;
+    background: #21222b;
+    height: 8vh;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+main{
+    background-color: #020200;
+}
+.background-main{    
+    background: url(../img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg) no-repeat center center;
+    background-size: contain;
+    height: 92vh;
+}
