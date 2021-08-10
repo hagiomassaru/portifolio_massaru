@@ -44,3 +44,15 @@ main{
     background-size: contain;
     height: 92vh;
 }
+section{
+    display: inline-block;
+}
+.imagem{
+    width: 300px;
+    margin: auto;
+}
+section p{
+    text-align: justify;
+    position: relative;
+    
+}
