@@ -1,23 +1,41 @@
+/* variaveis */
+
+:root{
+    --cor-azul: #191970;
+    --cor-branca: #FFFFFF;
+    --cor-preta: #1c1c1c;
+    --cor-cinza: #919191;
+
+    --tela-padrao: 1200px;
+
+}
+
+/* geral */
+
 body{
     font-family: 'Nunito', sans-serif;
 }
+
+a:link{
+    color: var(--cor-branca);
+    text-decoration: none;
+}
+a:visited{
+    color: var(--cor-cinza);
+}
+
+/* Barra superior */
+
 nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #191970;
+    background-color: var(--cor-azul);
+    color: var(--cor-branca);
 }
-#main-container{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.navegacao{ 
+.navegacao{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1400px;
+    width: var(--tela-padrao);
+    margin: 0 auto;
 }
 .navegacao ul{
     display: flex;
@@ -25,9 +43,25 @@ nav{
     list-style: none;
 }
 .navegacao li{
-    padding: 10px;
+    padding: 0 20px;
 }
-.navegacao a{
-    padding-left: 35px;
-    padding-right: 35px;
+
+/* header */
+
+#topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+
+    color: var(--cor-branca);
+}
+#sub-top{
+    width: var(--tela-padrao);
+
 }
