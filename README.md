@@ -3,7 +3,7 @@
 
  Portfolio pessoal para demostracao de minhas capacidades
 
- # Tecnologia
+ # Tecnologias
 
 - **HTML5**
 - **CSS3**
