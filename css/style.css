@@ -23,12 +23,26 @@ a:link{
 a:visited{
     color: var(--cor-cinza);
 }
+.container-layout{
+    width: var(--tela-padrao);
+}
+
 
 /* Barra superior */
 
 nav{
     background-color: var(--cor-azul);
     color: var(--cor-branca);
+}
+nav > div > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: 'Yellowtail', cursive, sans-serif;
+}
+nav > div > a:visited{
+    color: #FFFFFF;
 }
 .navegacao{
     display: flex;
@@ -61,7 +75,67 @@ nav{
 
     color: var(--cor-branca);
 }
-#sub-top{
-    width: var(--tela-padrao);
 
+/* Servicos */
+
+#servico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
 }
+#container-sevico-geral{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#servico img{
+    width: 100px;
+}
+.container-servicos{
+    width: 33.33%;
+    padding: 15px;
+    margin: 5px;
+    border: solid var(--cor-azul);
+}
+
+/* Contato */
+
+#contato{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-cinza);
+    height: 400px;
+}
+
+#contato img{
+    width: 100px;
+}
+#contato a:link{
+    color: var(--cor-azul);
+    text-decoration: none;
+}
+
+#contato-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.contato-img{
+    text-align: center;
+    padding: 15px;
+    background-color: var(--cor-branca);
+}
+
+/* footer */
+
+footer{
+    background-color: #191970;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
