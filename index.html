@@ -1,103 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="icon" href="./img/icon_computer.png" type="image/png">
-    <title>Massaru</title>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <!--  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Mezaki Massaru Hagio</title>
+</head>
 
 <body>
-    <div id="main-container">
-        <nav>
-            <div class="navegacao">
-                <a href="#">Massaru Hagio</a>
+    <div class="layout-flex-container">
+        <div class="back-container-header">
+            <nav>
                 <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#serviço">Serviços</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li class="menu1"><a href="#projetos">Projetos</a></li>
+                    <li class="menu2"><a href="#sobre">Sobre</a></li>
                 </ul>
+                <div class="logo">Contato</div>
+            </nav>
+            <header>
+                <div class="nome">
+                    <h1>Mezaki Massaru Hagio</h1>
+                    <h2>Desenvolvedor Front-End</h2>
+                </div>
+
+            </header>
+        </div>
+        <section class="secao-projectos" id="projetos">
+            <div class="titulo-projeto">
+                <h1>
+                    Projetos
+                </h1>
             </div>
-        </nav>
-
-        <header id="topo">
-            <div class="container-layout">
-                <h1>Desenvolvedor Web Front-End</h1>
-                <p>Aprender a trabalhar como Front-End, me fez ver a importância de se ter um site, como isso ajuda
-                    marketing e com isso na captação de clientes. Fora que desde pequeno gosto de programação sendo o
-                    desenvolvimento web uma das áreas mais divertidas de se trabalhar</p>
-                <a href="#serviço" class="botao">Ver Mais</a>
-            </div>
-        </header>
-
-        <section id="servico">
-            <div class="container-layout">
-                <h2>Serviços</h2>
-                <div id="container-sevico-geral">
-
-                    <div class="container-servicos">
-                        <img src="./img/logo-2582748_1920.png" alt="html5">
-                        <h3>HTML5</h3>
-                        <p>
-                            Tenho conhecimento em HTML5 que é uma linguagem de marcação padrão para páginas da web.
-                        </p>
+            <div class="project">
+                <div class="pr1 box">
+                    <a href="https://github.com/hagiomassaru/calculadora">
+                        <div class="img1 img"></div>
+                    </a>
+                    <div class="content1 content">
+                        <h3>Calculadora</h3>
+                        <p>Esse projeto tem o intuito de testar meus conhecimentos em javascript,html e css.</p>
                     </div>
-                    <div class="container-servicos">
-                        <img src="./img/logo-2582747_1920.png" alt="CSS">
-                        <h3>CSS3</h3>
-                        <p>
-                            Tenho conhecimento em CSS3, uma linguagem que usada para definir o estilo de um documento
-                            HTML.
-                        </p>
+                </div>
+                <div class="pr2 box">
+                    <a href="">
+                        <div class="img2 img"></div>
+                    </a>
+                    <div class="content2 content">
+                        <h3>Em Breve</h3>
+                        <p></p>
                     </div>
-                    <div class="container-servicos">
-                        <img src="./img/javascript-736400.png" alt="JS JavaScript">
-                        <h3>JavaScript</h3>
-                        <p>
-                            JavaScript é a linguagem de programação mais popular do mundo. Usada essa linguagem para
-                            programação
-                            da web e responsividade do site.
-                        </p>
+                </div>
+                <div class="pr3 box">
+                    <a href="">
+                        <div class="img3 img"></div>
+                    </a>
+                    <div class="content3 content">
+                        <h3>Em Breve</h3>
+                        <p></p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="contato">
-            <div class="container-layout">
-                <h2>Contato</h2>
-                <p>
-                    Venha falar comigo
-                </p>
-                <div id="contato-container">
-                    <div class="contato-img">
-                        <img src="./img/gmail.png" alt="Email">
-                        <p><a href="mailto:massaruhagiopro@gmail.com">Meu e-mail: massaruhagiopro@gmail.com</a></p>
-                    </div>
-                    <div class="contato-img">
-                        <img src="./img/github.png" alt="GitHub">
-                        <p><a href="https://github.com/hagiomassaru">Meu GitHub: github.com/hagiomassaru</a></p>
-                    </div>
-                    <div class="contato-img">
-                        <img src="./img/facebook-circular-logo.png" alt="Facebook">
-                        <p><a href="https://www.facebook.com/massaruhagio">Meu Facebook: facebook.com/massaruhagio</a>
-                        </p>
-                    </div>
+        <section class="about" id="sobre">
+            <div class="elemento-about-titulo">
+                <h1>
+                    Sobre mim
+                </h1>
+            </div>
+            <div class="elemento-about">
+                <div class="elemento-imagem">
+                    <div class="img-about"></div>
+                </div>
+                <div class="paragrafo-about">
+                    <p>
+                        Estudante autodidata de programação em HTML5/CSS3, JavaScript e Python! Tenho alguns projetos no
+                        GitHub, cujo o link esta na seção de contatos. Espero que goste!
+                    </p>
                 </div>
             </div>
         </section>
         <footer>
-            <a href="#topo">Voltar</a>
-            <p>Site desenvolvido por Mezaki Massaru Hagio</p>
+            <div class="contact" id="contato">
+                <a href="https://www.linkedin.com/in/massaru-hagio/">
+                    <div class="cont linkdin"></div>
+                </a>
+                <a href="https://www.facebook.com/massaruhagio">
+                    <div class="cont facebook"></div>
+                </a>
+                <a href="https://twitter.com/MezakiHagio">
+                    <div class="cont twitter"></div>
+                </a>
+                <a href="https://www.instagram.com/massaruhagio/">
+                    <div class="cont instagram"></div>
+                </a>
+                <a href="https://github.com/hagiomassaru">
+                    <div class="cont github"></div>
+                </a>
+                <a href="mailto:massaruhagiopro@gmail.com">
+                    <div class="cont email"></div>
+                </a>
+            </div>
+            <div class="Direitos">
+                <p>Programado por Mezaki Massaru Hagio</p>
+            </div>
+
         </footer>
     </div>
+
 </body>
 
 </html>
